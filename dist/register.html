@@ -3,6 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>注册</title>
+	<link rel="stylesheet" href="css/common.min.css">
+	<link rel="stylesheet" href="css/regitster.min.css">
 </head>
 <body>
 	<div id="banner">
@@ -15,6 +17,66 @@
 		<li>
 			<img src="img/register/banner3.jpg">
 		</li>
+		<a href="javascript:;">
+			<img src="img/register/qq.png"><span> QQ</span>
+		</a>
+	</div>
+	<div id="main">
+		<a href="javascript:;" id="nav">
+			<div>QQ靓号</div>
+			<img src="img/register/superqq.png"	>
+		</a>
+		<a href="javascript:;" id="sch">
+			<div>简体中文</div>
+			<div id="lanChange">
+				<li>繁体中文</li>
+				<li>Engilsh</li>
+			</div>
+		</a>
+		<a href="javascript:;" id="feedBk">
+			<div>意见反馈</div>
+		</a>
+	</div>
+	<div id="register">
+		<h2>欢迎注册QQ</h2>
+		<h3>每一天，乐在沟通。</h3><a href="javascript:;"><span>免费靓号</span></a>
+		<input type="text" id="nickName" placeholder="昵称">
+			<div id="nickNameAlert">
+				<img src="img/register/error.png">昵称不可以为空
+			</div>
+		<input type="password" id="pwd" placeholder="密码">
+			<div id="pwdInfo">
+				<div><img src="img/register/info.png">不能包含空格</div>
+				<div><img src="img/register/info.png">长度为8-16个字符</div>
+				<div><img src="img/register/info.png">必须包含字母数字两种</div>
+			</div>
+			<div id="pwdAlert1">
+				<img src="img/register/error.png">密码不能为空
+			</div>
+			<div id="pwdAlert2">
+					<img src="img/register/error.png">密码不符合要求
+			</div>
+		<select id="area">
+			<option value="+86" selected>+86</option>
+			<option value="+853">+853</option>
+			<option value="+852">+852</option>
+			<option value="+886">+886</option>
+		</select>
+		<input type="text" id="telNumber" placeholder="手机号码">
+		<p>可通过该手机号找回密码</p>
+		<input type="button" value="立即注册" id="btn">
+		<div id="checked">
+			<img src="img/register/error.png">请先同意服务条款
+		</div>
+		<div id="check">
+			<input type="checkbox"> 我已阅读并同意相关服务条款和隐私政策
+		</div>
+		<p id="copy">
+			Copyright © 1998-2019Tencent All Rights Reserved
+		</p>
 	</div>
 </body>
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/register.min.js"></script>
 </html>

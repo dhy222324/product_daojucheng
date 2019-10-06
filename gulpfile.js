@@ -12,7 +12,14 @@ gulp.task('sass',()=>{
     .pipe(rename({suffix : '.min'}))
     .pipe(gulp.dest('./dist/css'));
 })
+gulp.task('jsmin',()=>{
+    gulp.src('./src/js/*.js')
+    .pipe(rename({suffix : '.min'}))
+    .pipe(uglify())
+    .pipe(gulp.dest('./dist/js'));
+})
 
 gulp.task('default',()=>{
     gulp.watch('./src/sass/*.scss',['sass']);
+    gulp.watch('./src/js/*.js',['jsmin']);
 })
