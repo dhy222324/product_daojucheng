@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>列表页</title>
+    <link rel="stylesheet" href="css/common.min.css">
+    <link rel="stylesheet" href="css/shop.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <div id="header_left">
+                <span></span>
+                <a href="javascript:;">手机版</a>
+                <em>丨</em>
+                <a href="javascript:;">Q币充值</a>
+            </div>
+            <div id="header_right">
+                您还未登录，请<a href="login.html">登录</a>
+                <em>丨</em>
+                <a href="javascript:;">我的订单</a>
+                <em>丨</em>
+                <a href="javascript:;">个人中心</a>
+                <em>丨</em>
+                <a href="javascript:;">官方论坛</a><span></span>
+                <em>丨</em>
+                <a href="javascript:;">帮助中心</a>
+                <em>丨</em>
+                <a href="javascript:;">游戏导航</a><span></span>
+            </div>
+        </div>
+    </div>
+    <div id="logo">
+        <div class="container">
+            <a href="index.html" id="bigLogo"></a>
+            <input type="text" id="search" placeholder="输入道具进行搜索">
+            <div id="searchBtn"></div>
+            <a href="javascript:;" id="bsicon">
+                <img src="img/bs/logo.png" alt="">
+            </a>
+        </div> 
+    </div>
+    <div id="nav">
+        <div class="container">
+            <li>首页</li>
+            <li>商品列表</li>
+            <li>限时折扣</li>
+            <li>聚豆乐园</li>
+            <li>周边商城</li>
+            <li>活动专区</li>
+        </div>
+    </div>
+    <div id="bannerBig" class="container">
+        <div id="loginInfo">
+            <div id="loginInfo_top">
+                <img src="img/index/qq.gif"><span>您还未登录哦，<a href="login.html">立即登录</a>购买超值商品！</span>
+            </div>
+            <div id="loginInfo_middle">
+                <div id="usersname">
+                    <p>当前未绑定角色</p>
+                    <a href="javascript:;">立即绑定&gt;</a>
+                </div>
+                <div id="userspacket">
+                    <p><span></span>我的优惠券</p>
+                    <p><em></em>查询Q币Q点余额</p>
+                </div>
+            </div>
+            <div id="loginInfo_bottom">
+                <p>公告<a href="javascript:;" id="more">更多&gt;</a></p>
+                <ul>
+                    <li><a href="javascript:;">道聚城7周年瓜分百万Q币奖</a><span>09/17</span></li>
+                    <li><a href="javascript:;">网络异常公告</a><span>03/23</span></li>
+                    <li><a href="javascript:;">2019元旦官网恢复通知</a><span>01/01</span></li>
+                    <li><a href="javascript:;">激萌火炮兰手办现已闪电发货</a><span>12/11</span></li>
+                </ul>
+            </div>
+        </div>
+        <div id="banner">
+            <ul id="imgList">
+                <li><a href="#"><img src="img/bs/banner1.jpg" alt=""></a></li>
+                <li><a href="#"><img src="img/bs/banner2.jpg" alt=""></a></li>
+                <li><a href="#"><img src="img/bs/banner3.jpg" alt=""></a></li>
+                <li><a href="#"><img src="img/bs/banner4.jpg" alt=""></a></li>
+            </ul>
+            <ul id="infoList">
+                <li class="active">大侠修炼之路</li>
+                <li>剑灵火炮兰开售</li>
+                <li>剑灵聚豆商城上新</li>
+                <li>剑灵神龙商店</li>
+            </ul>
+        </div>
+        <div id="buydet">
+            <li>
+                <span></span>
+                <p>活动中心</p>
+            </li>
+            <li>
+                <span></span>
+                <p>聚豆商城</p>
+            </li>
+            <img src="img/index/code.png" alt="">
+            <h5>手机购买，更便捷</h5>
+        </div>
+    </div>
+    <div id="hot">
+        <div class="container">
+            <div id="hotview">
+                <div id="hotview_top">
+                    <h3>热卖推荐</h3>
+                    <a href="javascript:;">更多&gt;</a>
+                </div>
+                <div id="hot_goods">
+                    <li>
+                        <img src="img/bs/good1.jpg">
+                        <h5>暗夜之枪</h5>
+                        <p>Q币价： <span> 208.88Q币</span></p>
+                        <p>微信价： <span>￥202.61</span></p>
+                        <input type="button" value="立即购买">
+                    </li>
+                    <li>
+                        <img src="img/bs/good2.jpg">
+                        <h5>真红幻影拳套（拳师）</h5>
+                        <p>Q币价： <span> 143.88 Q币</span></p>
+                        <p>微信价： <span>¥139.56</span></p>
+                        <input type="button" value="立即购买">
+                    </li>
+                    <li>
+                        <img src="img/bs/good3.jpg">
+                        <h5>真红幻影剑（剑士）</h5>
+                        <p>Q币价： <span> 143.88 Q币</span></p>
+                        <p>微信价： <span>¥139.56</span></p>
+                        <input type="button" value="立即购买">
+                    </li>
+                    <li>
+                        <img src="img/bs/good4.jpg">
+                        <h5>泰云魂神物</h5>
+                        <p>Q币价： <span> 2.50 Q币</span></p>
+                        <p>微信价： <span> ¥2.42</span></p>
+                        <input type="button" value="立即购买">
+                    </li>
+                    <li>
+                        <img src="img/bs/good5.jpg">
+                        <h5>白帝</h5>
+                        <p>Q币价： <span> 188.88 Q币</span></p>
+                        <p>微信价： <span>¥183.21</span></p>
+                        <input type="button" value="立即购买">
+                    </li>
+                    <li>
+                        <img src="img/bs/good6.jpg">
+                        <h5>天乾守护石神物</h5>
+                        <p>Q币价： <span> 2.50 Q币</span></p>
+                        <p>微信价： <span>¥2.42</span></p>
+                        <input type="button" value="立即购买">
+                    </li>
+                    <li>
+                        <img src="img/bs/good7.jpg">
+                        <h5>天乾宝玉神物</h5>
+                        <p>Q币价： <span> 2.00 Q币</span></p>
+                        <p>微信价： <span>¥1.94</span></p>
+                        <input type="button" value="立即购买">
+                    </li>
+                    <li>
+                        <img src="img/bs/good8.jpg">
+                        <h5>泰云武魂神物</h5>
+                        <p>Q币价： <span> 12.50 Q币</span></p>
+                        <p>微信价： <span>¥12.12</span></p>
+                        <input type="button" value="立即购买">
+                    </li>
+                </div>
+            </div>
+            <div id="hotlist">
+                <div id="hotview_top">
+                    <h3>热门排行</h3>
+                </div>
+                <ul id="hotlistGoods">
+                    <li>
+                        <span>01</span>
+                        <img src="img/bs/right1.jpg" alt="">
+                        <a href="javascript:;">凝神香（100个）</a>
+                        <p>Q币价：4.60 Q币</p>
+                        <p>微信价：<em>￥4.46</em></p>
+                    </li>
+                    <li>
+                        <span>02</span>
+                        <img src="img/bs/right2.jpg" alt="">
+                        <a href="javascript:;">神龙工商袋（10个）</a>
+                        <p>Q币价：20.00 Q币</p>
+                        <p>微信价：<em>￥19.40</em></p>
+                    </li>
+                    <li>
+                        <span>03</span>
+                        <img src="img/bs/right3.jpg" alt="">
+                        <a href="javascript:;">血风灵气护符</a>
+                        <p>Q币价：0.18 Q币</p>
+                        <p>微信价：<em>￥0.17</em></p>
+                    </li>
+                    <li>
+                        <span>04</span>
+                        <img src="img/bs/right4.jpg" alt="">
+                        <a href="javascript:;">神龙工商袋（1个）</a>
+                        <p>Q币价：3.00 Q币</p>
+                        <p>微信价：<em>￥2.91</em></p>
+                    </li>
+                    <li>
+                        <span>05</span>
+                        <img src="img/bs/right5.jpg" alt="">
+                        <a href="javascript:;">茱莉亚的礼物箱</a>
+                        <p>Q币价：98.88 Q币</p>
+                        <p>微信价：<em>￥95.91</em></p>
+                    </li>
+                    <li>
+                        <span>06</span>
+                        <img src="img/bs/right6.jpg" alt="">
+                        <a href="javascript:;">兰兰的礼物箱</a>
+                        <p>Q币价：98.88 Q币</p>
+                        <p>微信价：<em>￥95.91</em></p>
+                    </li>
+                    <li>
+                        <span>07</span>
+                        <img src="img/bs/right7.jpg" alt="">
+                        <a href="javascript:;">蛋白面（5个）</a>
+                        <p>Q币价：3.00 Q币</p>
+                        <p>微信价：<em>￥2.91</em></p>
+                    </li>
+                    <li>
+                        <span>08</span>
+                        <img src="img/bs/right8.jpg" alt="">
+                        <a href="javascript:;">咒术师的礼物</a>
+                        <p>Q币价：2.98 Q币</p>
+                        <p>微信价：<em>￥2.89</em></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="areashop">
+        <div class="container">
+            <div id="areashops">
+                <div id="areashop_top">
+                    <h3>周边商城</h3>
+                    <a href="javascript:;">更多&gt;</a>
+                </div>
+                <ul id="area_list">
+                    <li>
+                        <img src="img/bs/areashop1.jpg" title="【限定】3D打印定制浮雕手机壳">
+                        <p>【限定】3D打印定制浮雕手机壳 <span>￥49.00</span></p>
+                    </li>
+                    <li>
+                        <img src="img/bs/areashop2.jpg" title="【新角色】男女款斗士鼠标垫">
+                        <p>【新角色】男女款斗士鼠标垫 <span>￥59.00</span></p>
+                    </li>
+                    <li>
+                        <img src="img/bs/areashop3.jpg" title="【CUBE】剑灵无线充电器">
+                        <p>【CUBE】剑灵无线充电器 <span>￥99.00</span></p>
+                    </li>
+                    <li>
+                        <img src="img/bs/areashop4.jpg" title="【剑灵】小奶狼款T恤">
+                        <p>【剑灵】小奶狼款T恤 <span>￥149.00</span></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="active">
+        <div class="container">
+            <div id="actives">
+                <div id="actives_top">
+                    <h3>精彩活动</h3>
+                    <a href="javascript:;">更多&gt;</a>
+                </div>
+                <ul id="actlist">
+                    <li>
+                        <span>剑灵</span>
+                        <em>火爆进行中</em>
+                        <img src="img/bs/act1.jpg" alt="">
+                        <h5>花好“钺”正圆</h5>
+                        <p>活动时间：2019-09-30~2020-09-30</p>
+                        <div class="stars"><b></b><i>(2499)</i></div>
+                    </li>
+                    <li>
+                        <span>剑灵</span>
+                        <em>火爆进行中</em>
+                        <img src="img/bs/act2.jpg" alt="">
+                        <h5>群雄逐鹿</h5>
+                        <p>活动时间：2019-09-25~2019-10-31</p>
+                        <div class="stars"><b></b><i>(2827)</i></div>
+                    </li>
+                    <li>
+                        <span>剑灵</span>
+                        <em>火爆进行中</em>
+                        <img src="img/bs/act3.jpg" alt="">
+                        <h5>洪门每日修炼</h5>
+                        <p>活动时间：2019-09-19~2019-10-23</p>
+                        <div class="stars"><b></b><i>(2413)</i></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+            <div class="container">
+                <div id="footerTop">
+                        <ul id="fisher">
+                            <li>
+                                <span></span><h5>我是新手</h5>
+                            </li>
+                            <li>
+                                <a href="javascript:;">什么是道聚城</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">如何购买</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">如何赠送</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">如何获取聚豆</a>
+                            </li>
+                        </ul>
+                        <ul id="ownCenter">
+                            <li>
+                                <span></span><h5>个人中心</h5>
+                            </li>
+                            <li>
+                                <a href="javascript:;">发货时间</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">如何领取</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">补发规则</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">Vip价定义</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">道具状态定义</a>
+                            </li>
+                        </ul>
+                        <ul id="payWay">
+                            <li>
+                                <span></span><h5>支付方式</h5>
+                            </li>
+                            <li>
+                                <a href="javascript:;">支付方式</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">购物点支付</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">如何充值</a>
+                            </li>
+                        </ul>
+                        <ul id="payWay">
+                            <li>
+                                <span></span><h5>腾讯在线服务</h5>
+                            </li>
+                            <li>
+                                <a href="javascript:;">腾讯官方在线客服</a>
+                            </li>
+                        </ul>
+                        <ul id="dbcode">
+                            <li>
+                                <img src="img/index/code.png" alt="">
+                                <p>掌上道聚城</p>
+                            </li>
+                            <li>
+                                <img src="img/index/wechatdjc.png" alt="">
+                                <p>道聚城公众号</p>
+                            </li>
+                        </ul>
+                </div>
+                <div id="footerBottom">
+                    <p>腾讯互动娱乐 | 服务条款| 腾讯游戏隐私保护指引 | 广告服务 | 腾讯游戏招聘 | 腾讯游戏客服 | 游戏地图 | 成长守护平台 | 商务合作 | 网站导航</p>
+                    <p>COPYRIGHT © 1998 – 2019 TENCENT. ALL RIGHTS RESERVED.</p>
+                    <p>腾讯公司 版权所有</p>
+                </div>
+            </div>
+        </div>
+        <div id="fixbutton">
+            <a href="#"><span></span><p>返回顶部</p></a>
+            <a href="javascript:;"><em>反馈</em> </a>
+        </div>
+</body>
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/shop.min.js"></script>
+</html>

@@ -1,0 +1,41 @@
+#login{
+    width: 700px;
+    height: 400px;
+    border: 3px solid #eee;
+    margin: 50px auto; 
+    text-align: center;
+    h2{
+        font-weight: normal;
+        font-size: 24px;
+        margin-top: 30px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 30px;
+        margin: 20px 0  30px 0;
+    }
+    input{
+        display: block;
+        margin: 20px auto;
+        width: 270px;
+        height: 46px;
+        border: 2px solid #e3e3e3;
+        padding-left: 30px;
+    }
+    input:last-of-type{
+        background: #86ce2f;
+        width: 300px;
+        color: white;
+        border: none;
+        padding: 0;
+    }
+    div{
+        margin-top: 20px;
+        margin-right: 10px;
+        float: right;
+        a{
+            color: #666666;
+            font-size: 12px;
+        }
+    }
+}

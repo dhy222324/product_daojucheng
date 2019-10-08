@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>道聚城</title>
+    <link rel="stylesheet" href="css/index.min.css">
+    <link rel="stylesheet" href="css/common.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <div id="header_left">
+                <span></span>
+                <a href="javascript:;">手机版</a>
+                <em>丨</em>
+                <a href="javascript:;">Q币充值</a>
+            </div>
+            <div id="header_right">
+                您还未登录，请<a href="login.html">登录</a>
+                <em>丨</em>
+                <a href="javascript:;">我的订单</a>
+                <em>丨</em>
+                <a href="javascript:;">个人中心</a>
+                <em>丨</em>
+                <a href="javascript:;">官方论坛</a><span></span>
+                <em>丨</em>
+                <a href="javascript:;">帮助中心</a>
+                <em>丨</em>
+                <a href="javascript:;">游戏导航</a><span></span>
+            </div>
+        </div>
+    </div>
+    <div id="logo">
+        <div class="container">
+            <a href="javascript:;" id="bigLogo"></a>
+            <input type="text" id="search" placeholder="请选择游戏搜索道具">
+            <div id="searchBtn"></div>
+            <div id="selectGame">选择游戏
+                <span></span>
+            </div>
+            <a href="javascript:;" id="codeznq">
+                <img src="img/index/codeznq.png" alt="">
+            </a>
+        </div> 
+    </div>
+    <div id="nav">
+        <div class="container">
+            <li><span></span>所有游戏分类</li>
+            <li>首页</li>
+            <li>活动中心</li>
+            <li>聚诚品
+                <img src="img/index/newtips.png" alt="">
+            </li>
+            <li>手游中心</li>
+            <li>聚豆商城</li>
+            <li>个人中心</li>
+        </div>
+    </div>
+    <div id="bannerBig" class="container">
+        <div id="gamelist">
+            <li><span></span>热门游戏<em></em>
+                <div id="details">
+                    <ul>
+                        <li><a href="shop.html">剑灵</a></li>
+                        <li><a href="javascript:;">穿越火线</a></li>
+                        <li><a href="javascript:;">CODOL</a></li>
+                        <li><a href="javascript:;">地下城与勇士</a></li>
+                        <li><a href="javascript:;">FIFAOL3</a></li>
+                        <li><a href="javascript:;">FIFAOL4</a></li>
+                        <li><a href="javascript:;">火影忍者</a></li>
+                        <li><a href="javascript:;">英雄联盟</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="javascript:;">冒险岛2</a></li>
+                        <li><a href="javascript:;">NBA2KOL</a></li>
+                        <li><a href="javascript:;">NBA2KOL2</a></li>
+                        <li><a href="javascript:;">逆战</a></li>
+                        <li><a href="javascript:;">QQ三国</a></li>
+                        <li><a href="javascript:;">飞车</a></li>
+                        <li><a href="javascript:;">天涯明月刀</a></li>
+                        <li><a href="javascript:;">炫舞</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="jlPage.html">御龙在天</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><span></span>角色扮演<em></em></li>
+            <li><span></span>竞技游戏<em></em></li>
+            <li><span></span>休闲游戏<em></em></li>
+            <li><span></span>网页游戏<em></em></li>
+        </div>
+        <div id="banner">
+            <ul id="imgList">
+                <li><a href="#"><img src="img/index/banner1.jpg" alt=""></a></li>
+                <li><a href="#"><img src="img/index/banner2.jpg" alt=""></a></li>
+                <li><a href="#"><img src="img/index/banner3.jpg" alt=""></a></li>
+                <li><a href="#"><img src="img/index/banner4.jpg" alt=""></a></li>
+                <li><a href="#"><img src="img/index/banner5.jpg" alt=""></a></li>
+            </ul>
+            <div id="pointer">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </div>
+        </div>
+        <div id="loginInfo">
+            <div id="loginInfo_top">
+                <img src="img/index/qq.gif"><span>您还未登录哦，<a href="login.html">立即登录</a>购买超值商品！</span>
+            </div>
+            <div id="loginInfo_middle">
+                <p>推荐游戏</p>
+                <a href="javascript:;">
+                    <img src="img/index/cf.jpg" alt="">
+                    <p>穿越火线</p>
+                </a>
+                <a href="javascript:;">
+                    <img src="img/index/lol.jpg" alt="">
+                    <p>英雄联盟</p>
+                </a>
+                <a href="javascript:;">
+                    <img src="img/index/bns.jpg" alt="">
+                    <p>剑灵</p>
+                </a>
+            </div>
+            <div id="loginInfo_bottom">
+                <p>公告</p><a href="javascript:;" id="more">更多</a>
+                <li><a href="javascript:;">关于穿越火线改名卡道具近期</a><span>&nbsp;&nbsp;&nbsp;09/27</span></li>
+                <li><a href="javascript:;">英雄联盟聚豆商城更新</a><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09/25</span></li>
+                <li><a href="javascript:;"> CF改名卡道具下架公告</a><span>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09/19</span></li>
+                <li><a href="javascript:;">道聚城7周年瓜分百万Q币奖</a><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09/17</span></li>
+            </div>
+        </div>
+    </div>
+    <div id="hotgoods">
+        <div class="container">
+            <i></i><h4>热卖推荐</h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i></i><h4>每日惊喜</h4>
+            <ul>
+                <li><img src="img/index/items/hot1.jpg"><span>[英雄联盟]</span><a href="javascript:;">冠军之志 瑞兹</a>
+                    <p>QB价：<em>79.00 QB</em></p>
+                    <p>热卖推荐</p>
+                    <input type="button" value="立即抢购">
+                </li>
+                <li><img src="img/index/items/hot2.jpg"><span>[英雄联盟]</span><a href="javascript:;">冠军之志 瑞兹 冠军</a>
+                    <p>QB价：<em>104.00 QB</em></p>
+                    <p>热卖推荐</p>
+                    <input type="button" value="立即抢购">
+                </li>
+                <li><img src="img/index/items/hot3.jpg"><span>[英雄联盟]</span><a href="javascript:;">全球总决赛2019通</a>
+                    <p>QB价：<em>79.00 QB</em></p>
+                    <p>热卖推荐</p>
+                    <input type="button" value="立即抢购">
+                </li>
+                <li><img src="img/index/items/hot4.jpg"><span>[英雄联盟]</span><a href="javascript:;">全球总决赛2019</a>
+                    <p>QB价：<em>31.50 QB</em></p>
+                    <p>热卖推荐</p>
+                    <input type="button" value="立即抢购">
+                </li>
+                <li><img src="img/index/items/hot5.jpg"><span>[英雄联盟]</span><a href="javascript:;">全球总决赛2019</a>
+                    <p>QB价：<em>31.50 QB</em></p>
+                    <p>热卖推荐</p>
+                    <input type="button" value="立即抢购">
+                </li>
+                <li><img src="img/index/items/hot6.jpg"><span>[英雄联盟]</span><a href="javascript:;">全球总决赛2019</a>
+                    <p>QB价：<em>31.50 QB</em></p>
+                    <p>热卖推荐</p>
+                    <input type="button" value="立即抢购">
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+    <div id="timebuy">
+        <img src="img/index/timerbuy.jpg" alt="">
+        <span>[飞车]</span><i>周末特惠礼包</i>
+        <p>秒杀价：<em>10.50 QB</em></p>
+        <div class="time-item">
+            <span id="day_show">0</span>天
+            <strong id="hour_show">0</strong>时
+            <strong id="minute_show">0</strong>分
+            <strong id="second_show">0</strong>秒
+        </div>
+        <input type="button" value="查看详情">
+    </div>
+    <div id="maylike">
+        <div class="container">
+            <i></i><h4>猜你喜欢</h4> <em>丨</em><a href="javascript:;">换一换&gt;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i></i><h4>每日签到</h4>
+            <ul>
+                <li>
+                    <img src="img/index/items/like1.jpg" alt="">
+                    <p>[英雄联盟]</p>
+                    <p>全球总决赛2019 G2</p>
+                    <p>商城价：<span>31.50 QB</span></p>
+                </li>
+                <li>
+                    <img src="img/index/items/like2.jpg" alt="">
+                    <p>[英雄联盟]</p>
+                    <p>奈落之炎 慎</p>
+                    <p>商城价：<span>79.00 QB</span></p>
+                </li>
+                <li>
+                    <img src="img/index/items/like3.jpg" alt="">
+                    <p>[英雄联盟]</p>
+                    <p>全球总决赛2019通行</p>
+                    <p>商城价：<span>79.00 QB</span></p>
+                </li>
+                <li>
+                    <img src="img/index/items/like4.jpg" alt="">
+                    <p>[英雄联盟]</p>
+                    <p>冠军之志 瑞兹</p>
+                    <p>商城价：<span>79.00 QB</span></p>
+                </li>
+                <li>
+                    <img src="img/index/items/like5.jpg" alt="">
+                    <p>[英雄联盟]</p>
+                    <p>全球总决赛2019通行</p>
+                    <p>商城价：<span>79.00 QB</span></p>
+                </li>
+            </ul>
+        </div>
+        <div id="daymark">
+            <div><span></span> 我要签到</div>
+            <p>今日签到可获得5个聚豆</p>
+            <p>下载手机道聚城最高可获得40聚豆</p>
+            <img src="img/index/code.png" alt="">
+        </div>
+    </div>
+    <div id="avtivitys">
+        <div class="container">
+            <i></i><h4>精彩活动</h4>
+            <a href="javascript:;">更多&gt;</a>
+            <ul>
+                <li><img src="img/index/ad1.jpg" alt=""></li>
+                <li><img src="img/index/ad2.jpg" alt=""></li>
+                <li><img src="img/index/ad3.jpg" alt=""></li>
+                <li><img src="img/index/ad4.jpg" alt=""></li>
+                <li><img src="img/index/ad5.jpg" alt=""></li>
+                <li><img src="img/index/ad6.jpg" alt=""></li>
+            </ul>
+        </div>
+    </div>
+    <div id="lolarea">
+        <div class="container">
+            <i></i><h4>英雄联盟专区</h4>
+            <a href="javascript:;">更多&gt;</a>
+            <img src="img/index/bigad1.jpg" alt="">
+            <ul class="area_top">
+                <li>
+                    <h4>全球总决赛2019通</h4>
+                    <p>微信价：<span>76.63元</span></p>
+                    <p>Q币价：79.00 QB</p>
+                    <img src="img/index/items/lol_left_1.jpg" alt="">
+                </li>
+                <li>
+                    <h4>30个总决赛2019法</h4>
+                    <p>微信价：<span>291.00元</span></p>
+                    <p>Q币价：300.00 QB</p>
+                    <img src="img/index/items/lol_left_2.jpg" alt="">
+                </li>
+                <li>
+                    <h4>全球总决赛2019</h4>
+                    <p>微信价：<span>30.55元</span></p>
+                    <p>Q币价：31.50 QB</p>
+                    <img src="img/index/items/lol_left_3.jpg" alt="">
+                </li>
+                <li>
+                    <h4>全球总决赛2019</h4>
+                    <p>微信价：<span>30.55元</span></p>
+                    <p>Q币价：31.50 QB</p>
+                    <img src="img/index/items/lol_left_4.jpg" alt="">
+                </li>
+            </ul>
+            <ul class="area_bottom">
+                <li>
+                    <img src="img/index/items/lol_bottom_1.jpg" alt="">
+                    <div class="bottomInfo">
+                        <a href="javascript:;">全球总决赛2019</a>
+                        <p>微信价：<span>30.55元</span></p>
+                        <p>Q币价：31.50 QB</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/index/items/lol_bottom_2.jpg" alt="">
+                    <div class="bottomInfo">
+                        <a href="javascript:;">冠军之志 瑞兹 冠</a>
+                        <p>微信价：<span>100.88元</span></p>
+                        <p>Q币价：104.00 QB</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/index/items/lol_bottom_3.jpg" alt="">
+                    <div class="bottomInfo">
+                        <a href="javascript:;">冠军之志 瑞兹</a>
+                        <p>微信价：<span>76.63元</span></p>
+                        <p>Q币价：79.00 QB</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/index/items/lol_bottom_4.jpg" alt="">
+                    <div class="bottomInfo">
+                        <a href="javascript:;">黎明使者 锐雯</a>
+                        <p>微信价：<span>96.03元</span></p>
+                        <p>Q币价：99.00 QB</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="area_right">
+                <li>
+                    <div class="rightInfo">
+                        <a href="javascript:;">1天双倍经验卡</a>
+                        <p>12.00 QB</p>
+                    </div>
+                    <img src="img/index/items/lol_right_1.jpg" alt="">
+                </li>
+                <li>
+                    <div class="rightInfo">
+                        <a href="javascript:;">魄罗守卫7天</a>
+                        <p>100.00 QB</p>
+                    </div>
+                    <img src="img/index/items/lol_right_2.jpg" alt="">
+                </li>
+                <li>
+                    <div class="rightInfo">
+                        <a href="javascript:;">胜利经验卡</a>
+                        <p>10.00 QB</p>
+                    </div>
+                    <img src="img/index/items/lol_right_3.jpg" alt="">
+                </li>
+                <li>
+                    <div class="rightInfo">
+                        <a href="javascript:;">3天双倍经验卡</a>
+                        <p>22.00 QB</p>
+                    </div>
+                    <img src="img/index/items/lol_right_4.jpg" alt="">
+                </li>
+                <li>
+                    <div class="rightInfo">
+                        <a href="javascript:;">众星之子 索拉卡</a>
+                        <p>10.00 QB</p>
+                    </div>
+                    <img src="img/index/items/lol_right_5.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="cfarea">
+            <div class="container">
+                <i></i><h4>穿越火线专区</h4>
+                <a href="javascript:;">更多&gt;</a>
+                <img src="img/index/bigad2.jpg" alt="">
+                <ul class="area_top">
+                    <li>
+                        <h4>6号背包</h4>
+                        <p>微信价：<span>85.36元</span></p>
+                        <p>Q币价：88.00 QB</p>
+                        <img src="img/index/items/cf_left_1.jpg" alt="">
+                    </li>
+                    <li>
+                        <h4>清除杀敌/死亡记录</h4>
+                        <p>微信价：<span>14.55元</span></p>
+                        <p>Q币价：15.00 QB</p>
+                        <img src="img/index/items/cf_left_2.jpg" alt="">
+                    </li>
+                    <li>
+                        <h4>战队徽章显示道具</h4>
+                        <p>微信价：<span>4.85元</span></p>
+                        <p>Q币价：5.00 QB</p>
+                        <img src="img/index/items/cf_left_3.jpg" alt="">
+                    </li>
+                    <li>
+                        <h4>防具促销包（7天）</h4>
+                        <p>微信价：<span>15.52元</span></p>
+                        <p>Q币价：16.00 QB</p>
+                        <img src="img/index/items/cf_left_4.jpg" alt="">
+                    </li>
+                </ul>
+                <ul class="area_bottom">
+                    <li>
+                        <img src="img/index/items/cf_bottom_1.jpg" alt="">
+                        <div class="bottomInfo">
+                            <a href="javascript:;">清除战绩胜负记录</a>
+                            <p>微信价：<span>9.70元</span></p>
+                            <p>Q币价：10.00 QB</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/index/items/cf_bottom_2.jpg" alt="">
+                        <div class="bottomInfo">
+                            <a href="javascript:;">4号背包（30天）</a>
+                            <p>微信价：<span>4.85元</span></p>
+                            <p>Q币价：5.00 QB</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/index/items/cf_bottom_3.jpg" alt="">
+                        <div class="bottomInfo">
+                            <a href="javascript:;">威锋（30天）</a>
+                            <p>微信价：<span>24.25元</span></p>
+                            <p>Q币价：25.00 QB</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/index/items/cf_bottom_4.jpg" alt="">
+                        <div class="bottomInfo">
+                            <a href="javascript:;">金蛇戒</a>
+                            <p>微信价：<span>29.10元</span></p>
+                            <p>Q币价：30.00 QB</p>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="area_right">
+                    <li>
+                        <div class="rightInfo">
+                            <a href="javascript:;">奥摩之志名片</a>
+                            <p>1.00 QB</p>
+                        </div>
+                        <img src="img/index/items/cf_right_1.jpg" alt="">
+                    </li>
+                    <li>
+                        <div class="rightInfo">
+                            <a href="javascript:;">蟒蛇-天鹰</a>
+                            <p>6.80 QB</p>
+                        </div>
+                        <img src="img/index/items/cf_right_2.jpg" alt="">
+                    </li>
+                    <li>
+                        <div class="rightInfo">
+                            <a href="javascript:;">杰迪-玛蒂克</a>
+                            <p>10.00 QB</p>
+                        </div>
+                        <img src="img/index/items/cf_right_3.jpg" alt="">
+                    </li>
+                    <li>
+                        <div class="rightInfo">
+                            <a href="javascript:;">绿色迷彩名片</a>
+                            <p>1.00 QB</p>
+                        </div>
+                        <img src="img/index/items/cf_right_4.jpg" alt="">
+                    </li>
+                    <li>
+                        <div class="rightInfo">
+                            <a href="javascript:;">幽灵行动名片</a>
+                            <p>1.00 QB</p>
+                        </div>
+                        <img src="img/index/items/cf_right_5.jpg" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="bsarea">
+                <div class="container">
+                    <i></i><h4>剑灵专区</h4>
+                    <a href="javascript:;">更多&gt;</a>
+                    <img src="img/index/bigad3.jpg" alt="">
+                    <ul class="area_top">
+                        <li>
+                            <h4>暗夜之枪</h4>
+                            <p>微信价：<span>202.61元</span></p>
+                            <p>Q币价：208.88 QB</p>
+                            <img src="img/index/items/bs_left_1.jpg" alt="">
+                        </li>
+                        <li>
+                            <h4>真红幻影拳套</h4>
+                            <p>微信价：<span>139.56元</span></p>
+                            <p>Q币价：143.88 QB</p>
+                            <img src="img/index/items/bs_left_2.jpg" alt="">
+                        </li>
+                        <li>
+                            <h4>真红幻影剑（剑士）</h4>
+                            <p>微信价：<span>139.56元</span></p>
+                            <p>Q币价：143.88 QB</p>
+                            <img src="img/index/items/bs_left_3.jpg" alt="">
+                        </li>
+                        <li>
+                            <h4>泰云魂神物</h4>
+                            <p>微信价：<span>2.42元</span></p>
+                            <p>Q币价：2.50 QB</p>
+                            <img src="img/index/items/bs_left_4.jpg" alt="">
+                        </li>
+                    </ul>
+                    <ul class="area_bottom">
+                        <li>
+                            <img src="img/index/items/bs_bottom_1.jpg" alt="">
+                            <div class="bottomInfo">
+                                <a href="javascript:;">白帝</a>
+                                <p>微信价：<span>183.21元</span></p>
+                                <p>Q币价：188.88 QB</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/index/items/bs_bottom_2.jpg" alt="">
+                            <div class="bottomInfo">
+                                <a href="javascript:;">天乾守护石神物</a>
+                                <p>微信价：<span>2.42元</span></p>
+                                <p>Q币价：2.50 QB</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/index/items/bs_bottom_3.jpg" alt="">
+                            <div class="bottomInfo">
+                                <a href="javascript:;">天乾宝玉神物</a>
+                                <p>微信价：<span>2.94元</span></p>
+                                <p>Q币价：2.00 QB</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/index/items/bs_bottom_4.jpg" alt="">
+                            <div class="bottomInfo">
+                                <a href="javascript:;">泰云武魂神物</a>
+                                <p>微信价：<span>12.12元</span></p>
+                                <p>Q币价：12.50 QB</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="area_right">
+                        <li>
+                            <div class="rightInfo">
+                                <a href="javascript:;">茱莉亚的礼物</a>
+                                <p>98.88 QB</p>
+                            </div>
+                            <img src="img/index/items/bs_right_1.jpg" alt="">
+                        </li>
+                        <li>
+                            <div class="rightInfo">
+                                <a href="javascript:;">百年雪莲露（1）</a>
+                                <p>0.30 QB</p>
+                            </div>
+                            <img src="img/index/items/bs_right_2.jpg" alt="">
+                        </li>
+                        <li>
+                            <div class="rightInfo">
+                                <a href="javascript:;">凝神香（100个）</a>
+                                <p>4.60 QB</p>
+                            </div>
+                            <img src="img/index/items/bs_right_3.jpg" alt="">
+                        </li>
+                        <li>
+                            <div class="rightInfo">
+                                <a href="javascript:;">炽热白青封印</a>
+                                <p>12.00 QB</p>
+                            </div>
+                            <img src="img/index/items/bs_right_4.jpg" alt="">
+                        </li>
+                        <li>
+                            <div class="rightInfo">
+                                <a href="javascript:;">[周年庆]常胜</a>
+                                <p>20.00 QB</p>
+                            </div>
+                            <img src="img/index/items/bs_right_5.jpg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    <div id="ylztarea">
+            <div class="container">
+                <i></i><h4>御龙在天专区</h4>
+                <a href="javascript:;">更多&gt;</a>
+                <img src="img/index/bigad4.jpg" alt="">
+                <ul class="area_top">
+                    <li>
+                        <h4>转性符</h4>
+                        <p>微信价：<span>970.00元</span></p>
+                        <p>Q币价：1000.00 QB</p>
+                        <img src="img/index/items/ylzt_left_1.jpg" alt="">
+                    </li>
+                    <li>
+                        <h4>高等淬炼宝石</h4>
+                        <p>微信价：<span>9.60元</span></p>
+                        <p>Q币价：9.90 QB</p>
+                        <img src="img/index/items/ylzt_left_2.jpg" alt="">
+                    </li>
+                    <li>
+                        <h4>强化水晶</h4>
+                        <p>微信价：<span>3.88元</span></p>
+                        <p>Q币价：4.00 QB</p>
+                        <img src="img/index/items/ylzt_left_3.jpg" alt="">
+                    </li>
+                    <li>
+                        <h4>四等混沌石（体质）</h4>
+                        <p>微信价：<span>13.96元</span></p>
+                        <p>Q币价：14.40 QB</p>
+                        <img src="img/index/items/ylzt_left_4.jpg" alt="">
+                    </li>
+                </ul>
+                <ul class="area_bottom">
+                    <li>
+                        <img src="img/index/items/ylzt_bottom_1.jpg" alt="">
+                        <div class="bottomInfo">
+                            <a href="javascript:;">四等切玉石[物攻]</a>
+                            <p>微信价：<span>13.96元</span></p>
+                            <p>Q币价：14.40 QB</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/index/items/ylzt_bottom_2.jpg" alt="">
+                        <div class="bottomInfo">
+                            <a href="javascript:;">四等集雨石[法攻]</a>
+                            <p>微信价：<span>13.96元</span></p>
+                            <p>Q币价：14.40 QB</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/index/items/ylzt_bottom_3.jpg" alt="">
+                        <div class="bottomInfo">
+                            <a href="javascript:;">四等龙麟石[风攻]</a>
+                            <p>微信价：<span>13.96元</span></p>
+                            <p>Q币价：14.40 QB</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/index/items/ylzt_bottom_4.jpg" alt="">
+                        <div class="bottomInfo">
+                            <a href="javascript:;">红宝石</a>
+                            <p>微信价：<span>96.03元</span></p>
+                            <p>Q币价：99.00 QB</p>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="area_right">
+                    <li>
+                        <div class="rightInfo">
+                            <a href="javascript:;">一等青瓷</a>
+                            <p>0.45 QB</p>
+                        </div>
+                        <img src="img/index/items/ylzt_right_1.jpg" alt="">
+                    </li>
+                    <li>
+                        <div class="rightInfo">
+                            <a href="javascript:;">三等青瓷</a>
+                            <p>7.20 QB</p>
+                        </div>
+                        <img src="img/index/items/ylzt_right_2.jpg" alt="">
+                    </li>
+                    <li>
+                        <div class="rightInfo">
+                            <a href="javascript:;">二等青瓷</a>
+                            <p>1.80 QB</p>
+                        </div>
+                        <img src="img/index/items/ylzt_right_2.jpg" alt="">
+                    </li>
+                    <li>
+                        <div class="rightInfo">
+                            <a href="javascript:;">副手技能改造符</a>
+                            <p>5.00 QB</p>
+                        </div>
+                        <img src="img/index/items/ylzt_right_4.jpg" alt="">
+                    </li>
+                    <li>
+                        <div class="rightInfo">
+                            <a href="javascript:;">飞行符</a>
+                            <p>0.20 QB</p>
+                        </div>
+                        <img src="img/index/items/ylzt_right_5.jpg" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    <div id="bottomAd">
+        <div class="container">
+            <li>
+                <img src="img/index/ad7.jpg" alt="">
+            </li>
+            <li>
+                <img src="img/index/ad8.jpg" alt="">
+            </li>
+            <li>
+                <img src="img/index/ad9.jpg" alt="">
+            </li>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="container">
+            <div id="footerTop">
+                    <ul id="fisher">
+                        <li>
+                            <span></span><h5>我是新手</h5>
+                        </li>
+                        <li>
+                            <a href="javascript:;">什么是道聚城</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">如何购买</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">如何赠送</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">如何获取聚豆</a>
+                        </li>
+                    </ul>
+                    <ul id="ownCenter">
+                        <li>
+                            <span></span><h5>个人中心</h5>
+                        </li>
+                        <li>
+                            <a href="javascript:;">发货时间</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">如何领取</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">补发规则</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">Vip价定义</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">道具状态定义</a>
+                        </li>
+                    </ul>
+                    <ul id="payWay">
+                        <li>
+                            <span></span><h5>支付方式</h5>
+                        </li>
+                        <li>
+                            <a href="javascript:;">支付方式</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">购物点支付</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">如何充值</a>
+                        </li>
+                    </ul>
+                    <ul id="payWay">
+                        <li>
+                            <span></span><h5>腾讯在线服务</h5>
+                        </li>
+                        <li>
+                            <a href="javascript:;">腾讯官方在线客服</a>
+                        </li>
+                    </ul>
+                    <ul id="dbcode">
+                        <li>
+                            <img src="img/index/code.png" alt="">
+                            <p>掌上道聚城</p>
+                        </li>
+                        <li>
+                            <img src="img/index/wechatdjc.png" alt="">
+                            <p>道聚城公众号</p>
+                        </li>
+                    </ul>
+            </div>
+            <div id="footerBottom">
+                <p>腾讯互动娱乐 | 服务条款| 腾讯游戏隐私保护指引 | 广告服务 | 腾讯游戏招聘 | 腾讯游戏客服 | 游戏地图 | 成长守护平台 | 商务合作 | 网站导航</p>
+                <p>COPYRIGHT © 1998 – 2019 TENCENT. ALL RIGHTS RESERVED.</p>
+                <p>腾讯公司 版权所有</p>
+            </div>
+        </div>
+    </div>
+    <div id="fixbutton">
+        <a href="#"><span></span><p>返回顶部</p></a>
+        <a href="javascript:;"><em>反馈</em> </a>
+    </div>
+</body>
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/index.min.js"></script>
+</html>

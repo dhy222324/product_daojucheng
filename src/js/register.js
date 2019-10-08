@@ -103,6 +103,8 @@ btn.click(function(){
                 return;
             }else {
                 cookieObj[niName] = upwd;
+                alert('注册成功！');
+                location.href = 'login.html';
             }
             $.cookie('register', JSON.stringify(cookieObj), {
                 expires: 7,
