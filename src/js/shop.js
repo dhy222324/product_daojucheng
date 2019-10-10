@@ -1,4 +1,5 @@
 $(function () {
+    
     var timer = null;
     var indexA=0;
     var imgWidth = $("#imgList li").width();
@@ -58,4 +59,30 @@ $(function () {
         }
     }
 
+    $('#hot_goods #hrefgood').click(function(){
+        $(window).attr('location',"goods.html");
+    });
 });
+$(function(){
+    init();
+    $('#carts').click(function(){
+        $(window).attr('location','carts.html');
+    })
+    function init() {
+        $('#goodsnum').text(0);
+        var cookieStr = $.cookie('carts') ? $.cookie('carts') : '';
+        var cookieObj = toObj(cookieStr);
+        var summ = 0;
+            for (var i in cookieObj) {
+                summ += parseInt(cookieObj[i].num);
+            }
+        
+        $('#goodsnum').text(summ);
+    }
+    function toObj(str) {
+        if (!str) {
+            return {};
+        }
+        return JSON.parse(str);
+    }
+})

@@ -137,6 +137,23 @@ body{
         background: #eb4c4c;
         color: #fe9191;
     }
+    #carts{
+        color: #de4242;
+        font-size: 19px;
+        text-align: center;
+        line-height: 46px;
+        height: 54px;
+        display: inline-block;
+        margin-left: 63px;
+        cursor: pointer;
+        em{
+            display: inline-block;
+            width: 28px;
+            height: 24px;
+            background: url(../img/bs/navico.png) no-repeat -237px -5px;
+            vertical-align: middle;
+        }
+    }
 }
 #bannerBig{
     height: 330px;
@@ -177,7 +194,7 @@ body{
             background: url(../img/index/icon.png) no-repeat -120px -177px;
         }
         em{
-            display: inline-block;
+            display: block;
             float: right;
             width: 8px;
             height: 11px;
@@ -1236,7 +1253,7 @@ body{
             text-decoration: underline;
         }
         span{
-            display: inline-block;
+            display: block;
             width: 32px;
             height: 32px;
             background: url(../img/index/icon.png) no-repeat 0 -136px;

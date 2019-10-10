@@ -50,7 +50,11 @@
             <li>聚豆乐园</li>
             <li>周边商城</li>
             <li>活动专区</li>
+            <div id="carts">
+                <em></em> <span> &nbsp;购物车</span> (<i id="goodsnum">0</i>)
+            </div>
         </div>
+        
     </div>
     <div id="bannerBig" class="container">
         <div id="loginInfo">
@@ -112,7 +116,7 @@
                     <a href="javascript:;">更多&gt;</a>
                 </div>
                 <div id="hot_goods">
-                    <li>
+                    <li id="hrefgood">
                         <img src="img/bs/good1.jpg">
                         <h5>暗夜之枪</h5>
                         <p>Q币价： <span> 208.88Q币</span></p>
@@ -385,5 +389,6 @@
         </div>
 </body>
 <script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
 <script src="js/shop.min.js"></script>
 </html>

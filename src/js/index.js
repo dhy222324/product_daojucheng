@@ -1,5 +1,4 @@
 $(function () {
-
     var indexA=0;
     var imgWidth = $("#imgList li").width();
     var clone = $("#imgList li").first().clone(true);
@@ -58,7 +57,7 @@ $(function () {
             $("#pointer li").eq(indexA).addClass("active").siblings().removeClass("active");
         }
     }
-
+    
 });
 
 var intDiff = parseInt(86400);//倒计时总秒数量
@@ -86,3 +85,26 @@ function timer(intDiff){
 $(function(){
     timer(intDiff);
 }); 
+$(function(){
+    init();
+    $('#carts').click(function(){
+        $(window).attr('location','carts.html');
+    })
+    function init() {
+        $('#goodsnum').text(0);
+        var cookieStr = $.cookie('carts') ? $.cookie('carts') : '';
+        var cookieObj = toObj(cookieStr);
+        var summ = 0;
+            for (var i in cookieObj) {
+                summ += parseInt(cookieObj[i].num);
+            }
+        
+        $('#goodsnum').text(summ);
+    }
+    function toObj(str) {
+        if (!str) {
+            return {};
+        }
+        return JSON.parse(str);
+    }
+})

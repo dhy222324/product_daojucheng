@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>详情页</title>
+    <link rel="stylesheet" href="css/common.min.css">
+    <link rel="stylesheet" href="css/goods.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <div id="header_left">
+                <span></span>
+                <a href="javascript:;">手机版</a>
+                <em>丨</em>
+                <a href="javascript:;">Q币充值</a>
+            </div>
+            <div id="header_right">
+                您还未登录，请<a href="login.html">登录</a>
+                <em>丨</em>
+                <a href="javascript:;">我的订单</a>
+                <em>丨</em>
+                <a href="javascript:;">个人中心</a>
+                <em>丨</em>
+                <a href="javascript:;">官方论坛</a><span></span>
+                <em>丨</em>
+                <a href="javascript:;">帮助中心</a>
+                <em>丨</em>
+                <a href="javascript:;">游戏导航</a><span></span>
+            </div>
+        </div>
+    </div>
+    <div id="logo">
+        <div class="container">
+            <div id="logowrap"></div>
+            <a href="index.html" id="bigLogo"></a>
+            <input type="text" id="search" placeholder="输入道具进行搜索">
+            <div id="searchBtn"></div>
+            <a href="javascript:;" id="bsicon">
+                <img src="img/bs/logo.png" alt="">
+            </a>
+        </div> 
+    </div>
+    <div id="nav">
+        <div class="container">
+            <li id="toIndex">首页</li>
+            <li id="toShop">商品列表</li>
+            <li>限时折扣</li>
+            <li>聚豆乐园</li>
+            <li>周边商城</li>
+            <li>活动专区</li>
+            <div id="carts">
+                <em></em> <span> &nbsp;购物车</span> (<i id="goodsnum">0</i>)
+            </div>
+        </div>
+    </div>
+    <div id="breadbar">
+        <div class="container">
+            <p>您现在的位置：<a href="index.html">道聚城</a> &gt; <a href="shop.html">剑灵商店</a> &gt; 道具详情</p>
+        </div>
+    </div>
+    <div id="looked">
+        <h4>最近浏览过的商品</h4>
+        <ul id="lookedgoods">
+            <li>
+                <img src="img/goods/left1.jpg" alt="">
+                <div class="lookedgoodsRight">
+                    <p>天乾守护石神物</p>
+                    <p>Q币价：2.50 Q币</p>
+                    <p>微信价：<b>￥2.42</b></p>
+                </div>
+            </li>
+            <li>
+                <img src="img/goods/left2.jpg" alt="">
+                <div class="lookedgoodsRight">
+                    <p>神龙工商袋</p>
+                    <p>Q币价：3.00 Q币</p>
+                    <p>微信价：<b>￥2.91</b></p>
+                </div>
+            </li>
+        </ul>
+        <p id="clearHistory">清除历史记录</p>
+    </div>
+    <div id="goodsinfo">
+        <div id="goodsbuy">
+            <img src="img/goods/good.jpg" id="imgsrc">
+            <div id="name" data-goodid="1">
+                <h5 id="goodname">暗夜之枪</h5>
+                <div id="price">
+                    <p id="goodPrice1">Q币价：208.88  Q币</p>
+                    <p>微信价: <b>￥202.61</b></p>
+                </div>
+                <div id="num">
+                    <span>数量：</span> <input type="button" value="-" id="minus"><input type="text" value="1" id="number"><input type="button" value="+" id="plus"> 件
+                </div>
+                <p>使用期限： <em>1个</em></p>
+                <input type="button" value="加入购物车" id="buy">
+            </div>
+            <div id="likeThis">
+                <i></i> <span>收藏商品</span>
+            </div>
+        </div>
+        <div id="goodDetail">
+            <h5>商品详情</h5><span></span><em>手机购买</em><i><img src="img/index/code.png" alt=""></i>
+            <p>午夜，是我的时刻。当子弹射出的时候，一切就结束了。 礼包包含： 暗夜之枪*1 暗夜背包*1 心之眼*1 决心*1</p>
+        </div>
+    </div>
+    <div id="areashop">
+        <div id="areashop_top">
+            <h4>周边商城</h4><a href="javascript:;">更多&gt;</a>
+        </div>
+        <ul id="areagoods">
+            <li>
+                <img src="img/goods/bottom1.jpg" alt="">
+                <div class="areagoods_info">
+                    <h5>【限定】世界杯-剑灵</h5>
+                    <p>商城价：<span>￥25.00</span></p>
+                </div>
+            </li>
+            <li>
+                <img src="img/goods/bottom2.jpg" alt="">
+                <div class="areagoods_info">
+                    <h5>【预售】南素柔</h5>
+                    <p>商城价：<span>￥118.00</span></p>
+                </div>
+            </li>
+            <li>
+                <img src="img/goods/bottom3.jpg" alt="">
+                <div class="areagoods_info">
+                    <h5>【限定】3D打印手机壳</h5>
+                    <p>商城价：<span>￥49.00</span></p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div id="mark">
+        <div id="alertbox">
+            <h3>温馨提示<span></span></h3>
+            <p>道具已成功加入购物车</p>
+            <input type="button" value="继续购物">
+            <a href="carts.html">去购物车结算</a>
+        </div>
+    </div>
+    <div id="footer">
+            <div class="container">
+                <div id="footerTop">
+                        <ul id="fisher">
+                            <li>
+                                <span></span><h5>我是新手</h5>
+                            </li>
+                            <li>
+                                <a href="javascript:;">什么是道聚城</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">如何购买</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">如何赠送</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">如何获取聚豆</a>
+                            </li>
+                        </ul>
+                        <ul id="ownCenter">
+                            <li>
+                                <span></span><h5>个人中心</h5>
+                            </li>
+                            <li>
+                                <a href="javascript:;">发货时间</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">如何领取</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">补发规则</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">Vip价定义</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">道具状态定义</a>
+                            </li>
+                        </ul>
+                        <ul id="payWay">
+                            <li>
+                                <span></span><h5>支付方式</h5>
+                            </li>
+                            <li>
+                                <a href="javascript:;">支付方式</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">购物点支付</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">如何充值</a>
+                            </li>
+                        </ul>
+                        <ul id="payWay">
+                            <li>
+                                <span></span><h5>腾讯在线服务</h5>
+                            </li>
+                            <li>
+                                <a href="javascript:;">腾讯官方在线客服</a>
+                            </li>
+                        </ul>
+                        <ul id="dbcode">
+                            <li>
+                                <img src="img/index/code.png" alt="">
+                                <p>掌上道聚城</p>
+                            </li>
+                            <li>
+                                <img src="img/index/wechatdjc.png" alt="">
+                                <p>道聚城公众号</p>
+                            </li>
+                        </ul>
+                </div>
+                <div id="footerBottom">
+                    <p>腾讯互动娱乐 | 服务条款| 腾讯游戏隐私保护指引 | 广告服务 | 腾讯游戏招聘 | 腾讯游戏客服 | 游戏地图 | 成长守护平台 | 商务合作 | 网站导航</p>
+                    <p>COPYRIGHT © 1998 – 2019 TENCENT. ALL RIGHTS RESERVED.</p>
+                    <p>腾讯公司 版权所有</p>
+                </div>
+            </div>
+        </div>
+        <div id="fixbutton">
+            <a href="#"><span></span><p>返回顶部</p></a>
+            <a href="javascript:;"><em>反馈</em> </a>
+        </div>
+</body>
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/goods.min.js"></script>
+</html>
